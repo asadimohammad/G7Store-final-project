@@ -1,0 +1,40 @@
+
+.card{
+    border: 1px solid #8d8d8d;
+    flex: 1;
+    /* height: 150px; */
+    text-align: center;
+    padding: 20px;
+
+    button{
+        padding: 10px;
+        margin: 10px 0;
+        background-color: #8d8d8d;
+        color: #fff;
+        cursor: pointer;
+    }
+}
+.cart-pr{
+    border: 1px solid #8d8d8d;
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    button{
+        padding: 10px;
+        margin: 10px 0;
+        background-color: #8d8d8d;
+        color: #fff;
+        cursor: pointer;
+    }
+}
+.card button:hover{
+    background-color: #303030;
+}
+a{
+    color: #fff !important;
+}
+a.active{
+    padding: 5px 10px ;
+    background-color: #006151;
+    color: #fff;
+}
